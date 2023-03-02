@@ -26,6 +26,10 @@ export const CardWrapper = styled.ul`
     flex-direction: column;
     align-items: center;
 
+    &:hover {
+      transform: scale(1.02);
+    }
+
     p {
       margin: 0;
       font-size: 16px;

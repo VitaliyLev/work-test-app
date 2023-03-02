@@ -39,6 +39,10 @@ export const PostCard = styled.li`
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 5px;
+
+  &:hover {
+    transform: scale(1.01);
+  }
 `;
 
 export const PostTitle = styled.p`
